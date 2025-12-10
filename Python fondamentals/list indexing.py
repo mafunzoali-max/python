@@ -1,0 +1,20 @@
+A = ['a', 'b', 'c', 'd', 'f', 'g', 'h', 'i', 'j']
+
+# Print the second element
+print(A[1])  # Output: b
+
+# Print the entire list
+print(A)  # Output: ['a', 'b', 'c', 'd', 'f', 'g', 'h', 'i', 'j']
+
+# Print the first five elements
+print(A[0:5])  # Output: ['a', 'b', 'c', 'd', 'f']
+
+# Print the third-to-last element
+print(A[-3])  # Output: h
+
+# Print a slice containing the third-to-last element
+print(A[-3:-2])  # Output: ['h']
+
+# Print the last and fifth-to-last elements individually
+print(A[-1])  # Output: j
+print(A[-5])  # Output: f
